@@ -1,0 +1,25 @@
+From 7ad0d28a9b9e45fd42a336f5856d2c396911701b Mon Sep 17 00:00:00 2001
+From: hantd <hantd@jointem.com>
+Date: Tue, 19 Jul 2016 17:21:06 +0800
+Subject: [PATCH] add toString method in Emp.java File
+
+---
+ Emp.java | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+diff --git a/Emp.java b/Emp.java
+index 521b66a..5bc45b6 100644
+--- a/Emp.java
++++ b/Emp.java
+@@ -6,4 +6,8 @@ public class Emp implements Serializable
+ 	private String job;
+ 	private Double sal;
+ 	private Double common;
++
++	public String toString(){
++	  return "一位雇员!";
++	}
+ }
+-- 
+2.9.0.windows.1
+
