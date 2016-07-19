@@ -6,4 +6,8 @@ public class Emp implements Serializable
 	private String job;
 	private Double sal;
 	private Double common;
+
+	public String toString(){
+	  return "一位雇员!";
+	}
 }
